@@ -1,0 +1,85 @@
+/*.group{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.contact h2{
+    align-self: center;
+    margin-bottom: 30px;
+}
+.contact form{
+    width: 50%;
+    margin: auto;
+    align-items: flex-start;
+} */
+
+
+
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 5% 15%;
+}
+.contact-description{
+    width: 70%;
+    text-align: center;
+}
+.contact-form{
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+    border-radius: 8px;
+    width: 60%;
+    margin-top: 10px;
+    margin: auto;
+}
+
+.double-input{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+}
+.double-input input{
+    width: calc(50% - 15px);
+}
+.single-input{
+    width: calc(100% - 30px);
+}
+.contact-form input, .contact-form textarea{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form textarea{
+    resize: none;
+    height: 200px;
+}
+
+input::placeholder, textarea::placeholder{
+    font-style: italic;
+    font-size: 11px;
+  }
+
+
+  
+  @media (max-width: 768px){
+    .contact-description{
+        width: unset;
+      }
+      .double-input{
+        gap: 20px;
+      }
+      .contact-form{
+        padding: 30px;
+      }
+  }

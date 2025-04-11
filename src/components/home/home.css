@@ -1,0 +1,21 @@
+.post-card img{
+    width: 300px;
+}
+.post-card:nth-child(odd){
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.post-card:nth-child(even){
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+.posts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}

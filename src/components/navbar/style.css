@@ -1,0 +1,47 @@
+.post-card img {
+    width: 300px;
+}
+
+.post-card {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding: 0 20px;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    padding: 10px;
+}
